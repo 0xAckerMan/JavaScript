@@ -5,28 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-        let counter = 0;
-        function count(){
-            counter++;
-            document.querySelector("h3").innerHTML=counter
-        }
-
-        function change(){
-            if(document.querySelector("h2").innerHTML==="Hello"){
-                document.querySelector("h2").innerHTML="Adios";
-            }else{
-                document.querySelector("h2").innerHTML="Hello";
-            }
-        }
+    <script src="counter.js">
     </script>
 </head>
 <body>
     <h1>More counters. The Advance way. No alerts!</h1>
     <h3>0</h3>
-    <button onclick="count()">count</button><br>
+    <buton onclick="count()">count</buton><br>
 
     <h2>Hello</h2>
-    <button onclick="change()">Change</button>
+    <button onclick =change()>Change</button>
 </body>
 </html>
